@@ -58,3 +58,4 @@ RUN git config --global user.email "ashwinstr@gmail.com"
 RUN git config --global user.name "ashwinstr"
 
 # command to run on container 
+CMD [ "bash", "./run" ]
